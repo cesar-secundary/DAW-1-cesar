@@ -53,4 +53,6 @@ Como podemos ver en la imagen dice que en la rama main no hay comits y dice que 
 git add ./
 ```
 
-/\*\*/
+## Realizando commit
+
+Un commit es como una fotografia del proyecto para guardar el progreso o si fallamos volver a el
