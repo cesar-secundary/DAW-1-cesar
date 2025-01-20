@@ -53,6 +53,45 @@ Como podemos ver en la imagen dice que en la rama main no hay comits y dice que 
 git add ./
 ```
 
-## Realizando commit
+Usamos un git status para verficar si se añadieron
+
+![Añadiendo ficheros](/img/git_add_files_add.png)
+
+### Realizando commit
 
 Un commit es como una fotografia del proyecto para guardar el progreso o si fallamos volver a el
+
+```git
+$ git commit -m "Primer commit del proyecto"
+[main b245231] Primer commit del proyecto
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+ create mode 100644 img/git_add_files_add.png
+```
+
+### Ahora subimos este repositorio a github con este comando
+
+Nos dara esta salida al ejecutar el comando
+
+```git
+ git push origin main
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (17/17), done.
+Writing objects: 100% (17/17), 83.28 KiB | 6.94 MiB/s, done.
+Total 17 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/cesar-secundary/DAW-1-cesar.git
+ * [new branch]      main -> main
+```
+
+### Utilzamos este comando para ver el historial de commits
+
+```git
+git log
+git reflog
+```
+
+Sin querer agrege un commit de mas por hacerlo en el archivo readme
+
+![git log](/img/git_log.png)
