@@ -95,3 +95,28 @@ git reflog
 Sin querer agrege un commit de mas por hacerlo en el archivo readme
 
 ![git log](/img/git_log.png)
+
+### Git clone
+
+Clonamos el repositorio desde git con este comando
+
+```git
+ git clone https://github.com/cesar-secundary/DAW-1-cesar.git
+
+  Esta el la salida
+
+Cloning into 'DAW-1-cesar'...
+remote: Enumerating objects: 22, done.
+remote: Counting objects: 100% (22/22), done.
+remote: Compressing objects: 100% (18/18), done.
+remote: Total 22 (delta 4), reused 22 (delta 4), pack-reused 0 (from 0)
+Receiving objects: 100% (22/22), 98.52 KiB | 97.00 KiB/s, done.
+Resolving deltas: 100% (4/4), done.
+
+EDU+cesgarmun@C03010132-INFO6-41503 MINGW64 ~/Desktop/code/entornos
+$ cd DAW-1-cesar/
+```
+
+### Renombramos el archivo
+
+Realizamos un nuevo commit con estos comandos
