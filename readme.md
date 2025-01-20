@@ -120,3 +120,30 @@ $ cd DAW-1-cesar/
 ### Renombramos el archivo
 
 Realizamos un nuevo commit con estos comandos
+
+- git add ./
+- git status
+- git commit -m "Renombrado el archivo a 1daw2425.txt"
+- git push origin main
+
+## Comandos utilizados
+
+- git init
+- git add ./
+- git status
+- git commit -m "Renombrado el archivo a 1daw2425.txt"
+- git push origin main
+- git clone
+- git remote -v
+- git branch
+- git config user.name
+- git config user.email
+- git log
+- ls
+- cd
+- mkdir
+- git remote add origin https://github.com/cesar-secundary/DAW-1-cesar.git
+
+### URL del repositorio
+
+[repositorio de github](https://www.luisllamas.es)
